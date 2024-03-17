@@ -1,0 +1,100 @@
+{"id": "0", "claim": "the non-linear function applied to the output of a neural unit is known as an activation function.","label": "SUPPORTS"}
+{"id": "1", "claim": "it is possible to build logical XOR using single perceptron.", "label": "REFUTES"}
+{"id": "2", "claim": "the weights of neural networks are learned automatically", "label": "NOT ENOUGH INFO"}
+{"id": "3", "claim": "the weights of neural networks are learned automatically using error backpropagation algorithm., "label": "SUPPORTS"}
+{"id": "4", "claim": "a feedforward network is a multilayer feedforward network network", "label": "NOT ENOUGH INFO"}
+{"id": "5", "claim": "a feedforward network is a multilayer feedforward network network in which the units are connected with no cycles", "label": "SUPPORTS"}
+{"id": "6", "claim": "in feedforward network each previous layer has always to be fully-connected to next layer", "label": "REFUTES"}
+{"id": "7", "claim": "softmax function is used to normalize output weights to probability distributions", "label": "SUPPORTS"}
+{"id": "8", "claim": "a neural network is like multinomial logistic regression", "label": "NOT ENOUGH INFO"}
+{"id": "9", "claim": "without non-linear activation functions, a multilayer network is just a notational variant of a single layer network with a different set of weights", "label": "SUPPORTS"}
+{"id": "10", "claim": "an embedding representation for our input words—is called Posttraining", "label": "REFUTES"}
+{"id": "11", "claim": "neural Language models are better than n-gram models", "label": "NOT ENOUGH INFO"}
+{"id": "12", "claim": "compared to n-gram models, neural language models can handle much longer histories, can generalize better over contexts of similar words, and are more accurate at word-prediction", "label": "SUPPORTS"}
+{"id": "13", "claim": "word embeddings allows neural language models to generalize better to unseen data", "label": "SUPPORTS"}
+{"id": "14", "claim": "Weights are updated during the forward inference step while training neural network", "label": "REFUTES"}
+{"id": "15", "claim": "Neural network and logistic regression use the same cross entropy loss function", "label": "SUPPORTS"}
+{"id": "16", "claim": "the cross entropy loss is simply the positive log of the output probability corresponding to the correct class", "label": "REFUTES"}
+{"id": "17", "claim": "the cross entropy loss is log of the output probability corresponding to the correct class", "label": "NOT ENOUGH INFO"}
+{"id": "18", "claim": "optimization in neural networks is a concave optimization problem, more complex than for logistic regression", "label": "REFUTES"}
+{"id": "19", "claim": "dropout is one of the regularization method to prevent overfitting", "label": "SUPPORTS"}
+{"id": "20", "claim": "Closed class words are generally function words like of, it, and, or you, which tend to be very short", "label": "SUPPORTS"}
+{"id": "21", "claim": "Part-of-speech taggers are evaluated by the standard metric of precision", "label": "NOT ENOUGH INFO"}
+{"id": "22", "claim": "The accuracy of part-of-speech tagging algorithms is extremely high", "label": "NOT ENOUGH INFO"}
+{"id": "23", "claim": "The task of named entity recognition (NER) is to find spans of text that constitute proper names and tag the type of the entity", "label": "SUPPORTS"}
+{"id": "24", "claim": "Part-of-speech is a useful first step in lots of natural language processing tasks", "label": "REFUTES"}
+{"id": "25", "claim": "Named entity recognition suffers segmentation problem", "label": "SUPPORTS"}
+{"id": "26", "claim": "BIO tagging can represent exactly the same information as the bracketed notation", "label": "NOT ENOUGH INFO"}
+{"id": "27", "claim": "BIO tagging cannot represent the task in the same simple sequence modeling way as part-of-speech tagging", "label": "REFUTES"}
+{"id": "28", "claim": "Unlike BIO tagging IO tagging loses some information by eliminating B tag", "label": "SUPPORTS"}
+{"id": "29", "claim": "Markov chain is a model that tells us something about the probabilities of sequences of random variables", "label": "NOT ENOUGH INFO"}
+{"id": "30", "claim": "Markov chain makes a very strong assumption that if we want to predict the future in the sequence, all that matters is the current state", "label": "SUPPORTS"}
+{"id": "31", "claim": "hidden Markov model (HMM) allows us to talk about both observed events and hidden events that we think of as causal factors in our probabilistic model", "label": "SUPPORTS"}
+{"id": "32", "claim": "hidden Markov model assumes that the probability of a word appearing depends only on its own tag", "label": "NOT ENOUGH INFO"}
+{"id": "33", "claim": "bigram assumption, is that the probability of a tag is dependent only on the previous tag, rather than the entire tag sequence", "label": "SUPPORTS"}
+{"id": "34", "claim": "hidden Markov model makes three assumptions while tagging", "label": "REFUTES"}
+{"id": "35", "claim": "Viterbi resembles the dynamic programming minimum edit distance", "label": "SUPPORTS"}
+{"id": "36", "claim": "hidden Markov model can achieve high accuracy without any underlying assumptions", "label": "REFUTES"}
+{"id": "37", "claim": "conditional random field not compute a probability for each tag at each time step", "label": "REFUTES"}
+{"id": "38", "claim": "at each time step the conditional random field computes log-linear functions over a set of relevant features", "label": "SUPPORTS"}
+{"id": "39", "claim": "word shape feature is one of the most useful feature t represent unknown words", "label": "SUPPORTS"}
+{"id": "40", "claim": "Recurrent neural networks and transformer networks are deep learning architectures that can effectively handle the sequential nature of language", "label": "SUPPORTS"}
+{"id": "41", "claim": "Language models assign a probability to a sequence of words in a language", "label": "SUPPORTS"}
+{"id": "42", "claim": "Elman networks are a class of feedforward neural networks that have proven to be extremely effective when applied to language", "label": "REFUTES"}
+{"id": "43", "claim": "Recurrent neural networks (RNNs) encode prior context or memory from earlier time steps, and this context can extend back to the beginning of the sequence", "label": "SUPPORTS"}
+{"id": "44", "claim": "For applications that involve much longer input sequences, such as speech recognition, character-level processing, or streaming of continuous inputs, unrolling anentire input sequence is feasible", "label": "REFUTES"}
+{"id": "45", "claim": "RNNs dont have the limited context problem that n-gram models have, since the hidden state can in principle represent information about all of the preceding words all the way back to the beginning of the sequence", "label": "SUPPORTS"}
+{"id": "46", "claim": "The backpropagation algorithm for training weights in RNNs involves a two-pass process, with the first pass involving forward inference and the second pass involving processing the sequence in reverse to compute gradients", "label": "SUPPORTS"}
+{"id": "47", "claim": "Backpropagation Through Time is a general approach to training weights in RNNs that involves processing the sequence only in the forward direction.", "label": "REFUTES"}
+{"id": "48", "claim": "the RNN language model uses the word embedding matrix E to retrieve the embedding for the current word, and then combines it with the hidden layer from the previous step to compute a new hidden layer", "label": "SUPPORTS"}
+{"id": "49", "claim": "the cross-entropy loss for language modeling is determined by the probability the RNN language model assigns to the correct next word", "label": "SUPPORTS"}
+{"id": "50", "claim": "We train the model to maximize the error in predicting the true next word in the training sequence, using cross-entropy as the loss function.", "label": "REFUTES"}
+{"id": "51", "claim": "In an RNN approach to sequence labeling, inputs are word embeddings and the outputs are tag probabilities generated by a softmax layer over the given tagset", "label": "SUPPORTS"}
+{"id": "52", "claim": "Weight tying is a method that dispenses with this redundancy and simply uses a single set of embeddings at the input and softmax layers", "label": "SUPPORTS"}
+{"id": "53", "claim": "This idea that we always give the model its best case from the previous time step is called teacher forcing.", "label": "REFUTES"}
+{"id": "54", "claim": "This approach of using a language model to incrementally generate words by repeatedly sampling the next word conditioned on our previous choices is called autoregressive autoregressive generation.", "label": "SUPPORTS"}
+{"id": "55", "claim": "The RNN uses information from the current context to make its predictions at time t.", "label": "REFUTES"}
+{"id": "56", "claim": "Stacked RNNs consist of multiple networks where the output of one layer serves as the input to a subsequent layer", "label": "SUPPORTS"}
+{"id": "57", "claim": "One of the reasons for the inability of RNNs, is that it only provides useful information for the current decision but does not update the carrying forward information required decision.", "label": "REFUTES"}
+{"id": "58", "claim": "A transformer block consists of a single attention layer followed by a feedforward layer with residual connections and layer normalizations following each", "label": "SUPPORTS"}
+{"id": "59", "claim": "Simple recurrent networks fail on long inputs because of problems like vanishing gradients; instead modern systems use more complex gated architectures such as LSTMs that explicitly decide what to remember and forget in their hidden and context layers.", "label": "SUPPORTS"}
+{"id": "60", "claim": "The lexical divergence refers to the differences between languages at the level of words and vocabulary.", "label": "SUPPORTS"}
+{"id": "61", "claim": "An encoder network that takes an input sequence and creates a contextualized representation of it, often called the context. This representation is then passed to a decoder which generates a taskspecific output sequence.", "label": "SUPPORTS"}
+{"id": "62", "claim": "The Encoder-Decoder architecture in RNNs is limited to sequence-to-sequence tasks and cannot be used for other natural language processing tasks", "label": "REFUTES"}
+{"id": "63", "claim": "The final hidden state of the system is acting as a bottleneck: it represents absolutely everything about the meaning of the source text, since the only thing the decoder knows about the source text is what is in this context vector", "label": "SUPPORTS"}
+{"id": "64", "claim": "To produce sentence alignments between two documents that are translations of each other, we need a cost function and an alignment algorithm.", "label": "SUPPORTS"}
+{"id": "65", "claim": "Teacher forcing means that we force the system to rely on the (possibly erroneous) decoder output y^t , rather than allowing it to use the gold target token from training as the next input xt+1it", "label": "REFUTES"}
+{"id": "66", "claim": "The self-attention layer in each decoder block of a transformer model is a causal (left-to-right) self-attention", "label": "SUPPORTS"}
+{"id": "67", "claim": "A greedy algorithm is one that make a choice that is locally optimal, whether or not it will turn out to have been the best choice with hindsight", "label": "SUPPORTS"}
+{"id": "68", "claim": "The simple dot-product attention requires that the encoder and decoder hidden states have the different dimensionality", "label": "REFUTES"}
+{"id": "69", "claim": "The transformer blocks in the decoder have an extra cross-attention layer to attend to the source language", "label": "SUPPORTS"}
+{"id": "70", "claim": "In the vanilla encoder-decoder model, the context vector c is a fixed-length vector that represents everything about the meaning of the source text.", "label": "SUPPORTS"}
+{"id": "71", "claim": "In beam search, instead of keeping k possible tokens at each step, we choose the best token to generate at each timestep", "label": "REFUTES"}
+{"id": "72", "claim": "Human raters, such as online crowdworkers, are considered the most accurate evaluation method for machine translation along the dimensions of fluency and adequacy", "label": "SUPPORTS"}
+{"id": "73", "claim": "The relevance of each encoder state to the current step of the decoder is measured using dot-product attention, which computes the dot product between the decoder hidden state and each encoder hidden state", "label": "SUPPORTS"}
+{"id": "74", "claim": "Backtranslation only works when there is a large parallel corpus available for the target language", "label": "REFUTES"}
+{"id": "75", "claim": "During inference, the decoder tends to deviate more and more from the gold target sentence as it keeps generating more tokens, which is why teacher forcing is more commonly used during training", "label": "SUPPORTS"}
+{"id": "76", "claim": "Encoder-decoder architectures are trained in a supervised manner with paired source and target strings", "label": "SUPPORTS"}
+{"id": "77", "claim": "MT systems can be used in urgent medical situations where human translators are always available", "label": "REFUTES"}
+{"id": "78", "claim": "Languages have divergences, both structural and lexical, that make translation difficult.", "label": "SUPPORTS"}
+{"id": "79", "claim": "Algorithms like COMET and BLEURT train a predictor on human-labeled datasets to measure translation quality, while BERTSCORE uses embeddings to measure similarity between a reference translation and a candidate machine translation", "label": "SUPPORTS"}
+{"id": "80", "claim": "Fluent speakers have a limited active vocabulary of about 2000 words, and acquire the majority of their words through reading.", "label": "SUPPORTS"}
+{"id": "81", "claim": "Reasonable classification performance is only acheived with major changes to the language model parameters.", "label": "REFUTES"}
+{"id": "82", "claim": "In the task of natural language inference a model is presented with a pair of sentences and must classify the relationship between their meanings.", "label": "SUPPORTS"}
+{"id": "83", "claim": "Sequence classification applications often represent an input sequence with many consolidated representations.", "label": "REFUTES"}
+{"id": "84", "claim": "The sentence embedding vector is added to the model to stand for the entire sequence.", "label": "SUPPORTS"}
+{"id": "85", "claim": "The MLM training objective is to predict the original inputs for each of the maked tokens using a bidirectional encoder.", "label": "SUPPORTS"}
+{"id": "86", "claim": "MLM uses annotated text from a large corpus.", "label": "SUPPORTS"}
+{"id": "87", "claim": "The size of the input layer does not dictate the complexity of the model.", "label": "REFUTES"}
+{"id": "88", "claim": "Bidirectional encoders skip the mask, allowing the model to contextualize each token using information from the entire input.", "label": "SUPPORTS"}
+{"id": "89", "claim": "In contextual embeddings each word, w, will be represented by a different vector each time it appears in a different context.", "label": "SUPPORTS"}
+{"id": "90", "claim": "BERT can see both right and left context", "label": "SUPPORTS"}
+{"id": "91", "claim": "Pretraining is the process of learning a representation of meaning for words or sentences by processing very large amounts of text.", "label": "SUPPORTS"}
+{"id": "92", "claim": "Fine-tuning is the process of learning a language model that instantiates a rich representation of word meaning.", "label": "REFUTES"}
+{"id": "93", "claim": "The pretrain-finetune paradigm is an instance of what is called transfer learning in machine learning.", "label": "SUPPORTS"}
+{"id": "94", "claim": "The processing of an entire sequence in bidirectional encoders can be parallelized via matrix operations.", "label": "SUPPORTS"}
+{"id": "95", "claim": "Bidirectional encoders use self-attention to map sequences of input embeddings to sequences of output embeddings, contextualized using information from the entire input sequence.", "label": "SUPPORTS"}
+{"id": "96", "claim": "BERT and its descendants are based on words rather than subword tokens.", "label": "REFUTES"}
+{"id": "97", "claim": "In bidirectional encoders, the upper triangular portion of the self-attention matrix is masked to eliminate information about future words.", "label": "REFUTES"}
+{"id": "98", "claim": "The MLM model is presented with a series of sentences from the training corpus where a ran- dom sample of tokens from each training sequence is selected for use in the learning task.", "label": "SUPPORTS"}
+{"id": "99", "claim": "Fine-tuning facilitates the creation of applications on top of pre-trained models through the addition of a small set of application-specific parameters.", "label": "SUPPORTS"}
